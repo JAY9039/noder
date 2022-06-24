@@ -1,0 +1,34 @@
+{
+  "name": "noderquiz",
+  "version": "1.0.0",
+  "description": "A small quiz game called noder.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "noder": "index.js"
+  },
+  "keywords": [],
+  "author": "Jay Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chalk-animation": "^2.0.2",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.1",
+    "inquirer": "^9.0.0",
+    "nanospinner": "^1.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JAY9039/noder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JAY9039/noder/issues"
+  },
+  "homepage": "https://github.com/JAY9039/noder#readme"
+}
